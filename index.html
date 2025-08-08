@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Desafio 1 a 36</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<div class="container">
+  <h1>Desafio 1 a 36</h1>
+  <p>Este desafio revela o quão rápido o seu cérebro consegue encontrar padrões e manter o foco sob pressão. Encontre os números na ordem crescente de 1 a 36 o mais rápido possível!</p>
+
+  <div class="controls">
+    <button id="start">Iniciar</button>
+    <button id="restart">Reiniciar</button>
+  </div>
+
+  <div class="timer">
+    <div><strong>Segundos:</strong> <span id="sec">00</span></div>
+    <div><strong>Milésimos:</strong> <span id="ms">000</span></div>
+  </div>
+
+  <div id="grid" class="grid disabled"></div>
+  <div class="status">
+    Pontos: <span id="score">0</span> / 36
+  </div>
+
+  <div class="history">
+    <h2>Histórico de tempos</h2>
+    <ul id="historyList"></ul>
+  </div>
+</div>
+
+<!-- Confetti JS -->
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
